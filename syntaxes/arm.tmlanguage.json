@@ -86,7 +86,7 @@
       ]
     },
     {
-      "match": "\\b(?i)(v?(add|cvt|sub|mov|trn|cmp|div|qdmulh|mrs|mul|ld1|qadd|qshrun|st[1234]|addw|mull|mlal|rshrn|swp|qmovunand|m(rs|sr)|eor|sub|rsb|adc|sbc|rsc|and|tst|teq|cmp|cmn|orr|mov|bic|mvn|neg|lsr|lsl|ror|asr)s?|mul|mla|mull|smlabb|mov(w|t)|rev(8|16)?|pld|adr|adrl|vswp)(ne|eq|cs|hs|cc|lo|mi|pl|vs|vc|hi|ls|lt|le|gt|ge|al)?(?-i)\\b",
+      "match": "\\b(?i)(v?(MOV|LOD|STO|LDX|STX|PUS|POP|CAL|JC|JNC|JZ|JNZ|JN|JP|JV|JNV|ADD|SUB|AND|OR|XOR|NOT|LSR|LSL|INC|DEC|INC|ADC|SBB|CSR|CSL|CMP|CPY|LDD|IN|NOP)s?|mul|mla|mull|smlabb|mov(w|t)|rev(8|16)?|pld|adr|adrl|vswp)(ne|eq|cs|hs|cc|lo|mi|pl|vs|vc|hi|ls|lt|le|gt|ge|al)?(?-i)\\b",
       "name": "support.function.mnemonic.arithmetic.arm"
     },
     {
