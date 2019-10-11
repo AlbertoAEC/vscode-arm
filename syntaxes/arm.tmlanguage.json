@@ -15,7 +15,7 @@
     },
     {
       "match": "^\\s*#.*$",
-      "name": "comment.arm"
+      "name": "keyword.control.directive.arm"
     },
     {
       "name": "comment.arm",
