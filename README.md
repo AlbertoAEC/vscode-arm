@@ -1,5 +1,7 @@
 # ARM assembly highlighting for Visual Studio Code
 
+Adapted to PHANAND by Alberto Subías. Based on extension made by Dan Underwood [GitHub Project](https://github.com/dan-c-underwood/vscode-arm).
+
 Adds syntax highlighting for the ARM Assembly language to Visual Studio Code. This extension was originally written to support the ARM instruction set used in teaching at the University of Manchester so availability of instructions on platforms is not guaranteed.
 
 The extension is a converted version of the syntax highlighting package for the Atom editor.
